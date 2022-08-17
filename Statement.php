@@ -59,9 +59,8 @@ class Statement {
 	/**
 	 * Get a set of rows
 	 * 
-	 * Return the all row from a SQL Statement, or
-	 * null if some error occur. The debug properties
-	 * are set in this case.
+	 * Return all rows from a SQL Statement, or
+	 * null if some error occur.
 	 * 
 	 * @param string     $query     The SQL query string
 	 * @param array|null $bindings  Bindings to be bound on PDOStatement::bindValue()
